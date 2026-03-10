@@ -137,6 +137,50 @@ button:hover {
 }
 
 footer {
+  /* Participants Section Styles */
+  .participants-section {
+    margin-top: 12px;
+  }
+
+  .participants-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 0;
+  }
+
+  .participant-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f8e9;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-bottom: 2px;
+  }
+
+  .participant-email {
+    font-size: 15px;
+    color: #333;
+  }
+
+  .delete-icon {
+    cursor: pointer;
+    color: #c62828;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: color 0.2s;
+  }
+  .delete-icon:hover {
+    color: #b71c1c;
+  }
+
+  .no-participants {
+    color: #888;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 4px;
+  }
   text-align: center;
   margin-top: 30px;
   padding: 20px;
